@@ -28,3 +28,16 @@ console.log(pazymiaiSum);
 let objs = [{a:10}, {a:8}, {a:2}, {a:6}, {a:4}];
 const sumObjs = objs.reduce( (total, obj) => total + obj.a, 0 );
 console.log(sumObjs);
+
+
+document.querySelector('body').addEventListener('click', onClickDiv)
+
+function onClickDiv() {
+
+}
+
+localStorage.setItem('test', 'test value :D')
+
+console.log(  localStorage.getItem('test')  );
+
+localStorage.removeItem('test')
